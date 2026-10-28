@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+test_skinsense.db
+skinsense.db
+
+# User Uploads & Private Images
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/
+
+# Node & Frontend Build
+node_modules/
+dist/
+.vite/
+
+# Environment Secrets
+.env
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Keep important assets and evaluations
+!ml/evaluation/*
+!frontend/src/assets/*
+!frontend/public/*

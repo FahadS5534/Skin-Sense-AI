@@ -1,0 +1,33 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: skinsense_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=SkinSense AI
+      - ENVIRONMENT=production
+      - SECRET_KEY=skinsense_docker_production_secret_key_32bytes_min
+      - DATABASE_URL=sqlite:///./skinsense.db
+      - UPLOAD_DIR=./uploads
+      - MODEL_WEIGHTS_DIR=./ml/weights
+    volumes:
+      - backend_uploads:/app/uploads
+      - ./ml/weights:/app/ml/weights
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: skinsense_frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend_uploads:

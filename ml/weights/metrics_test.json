@@ -1,0 +1,13 @@
+{
+  "split": "test",
+  "precision": 0.5523,
+  "recall": 0.5308,
+  "mAP50": 0.5211,
+  "mAP50-95": 0.2897,
+  "per_class_mAP50-95": {
+    "Mole": 0.6638,
+    "acne": 0.0989,
+    "rosacea": 0.2436,
+    "wrinkle": 0.1525
+  }
+}

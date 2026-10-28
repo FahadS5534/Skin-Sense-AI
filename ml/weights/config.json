@@ -1,0 +1,13 @@
+{
+  "task": "detect",
+  "architecture": "yolo26",
+  "base_model": "yolo26n.pt",
+  "num_classes": 4,
+  "class_names": [
+    "Mole",
+    "acne",
+    "rosacea",
+    "wrinkle"
+  ],
+  "image_size": 640
+}

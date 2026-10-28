@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "last_reviewed": "2026-03-01",
+  "evidence_levels": [
+    "Peer-Reviewed",
+    "Dermatologist Consensus",
+    "Clinical Review"
+  ],
+  "prohibited_substances": [
+    "lemon juice",
+    "raw lemon",
+    "garlic",
+    "crushed garlic",
+    "baking soda",
+    "toothpaste",
+    "hydrogen peroxide on open wounds",
+    "vinegar straight application"
+  ],
+  "routines": {
+    "morning_cleanser": {
+      "name": "Gentle Non-Stripping Cleanser",
+      "action": "Cleanse",
+      "phase": "morning",
+      "ingredient_or_category": "Hydrating syndet bar or gentle amino-acid cleanser",
+      "evidence_level": "Dermatologist Consensus",
+      "purpose": "Removes nocturnal sebum and perspiration without disrupting the epidermal stratum corneum lipid barrier.",
+      "limitations": "Does not treat active inflammatory acne lesions on its own.",
+      "safety_notes": "Avoid harsh sulfates and abrasive physical scrubs. Use lukewarm water.",
+      "source": "American Academy of Dermatology (AAD) Barrier Guidelines, 2024"
+    },
+    "morning_antioxidant": {
+      "name": "Soothing Niacinamide or Azelaic Formulation",
+      "action": "Tone & Calm",
+      "phase": "morning",
+      "ingredient_or_category": "Niacinamide (2-5%) or Azelaic Acid (10% OTC)",
+      "evidence_level": "Peer-Reviewed",
+      "purpose": "Supports sebum regulation, diminishes visual blotchiness, and improves epidermal barrier resilience.",
+      "limitations": "Concentrations above 10% may cause contact dermatitis or flushing.",
+      "safety_notes": "Patch test on forearm before facial application. Discontinue if persistent stinging occurs.",
+      "source": "Journal of the American Academy of Dermatology (JAAD) 2023; 88(3):612-620"
+    },
+    "morning_sunscreen": {
+      "name": "Broad-Spectrum Daily Photoprotection SPF 30-50+",
+      "action": "Protect",
+      "phase": "morning",
+      "ingredient_or_category": "Broad-Spectrum SPF 30-50+ with Zinc Oxide, Titanium Dioxide, or photostable organic filters",
+      "evidence_level": "Peer-Reviewed",
+      "purpose": "Protects against UVA/UVB induced post-inflammatory hyperpigmentation (PIH) and oxidative collagen degradation.",
+      "limitations": "Requires reapplication every 2 hours under prolonged direct sun exposure.",
+      "safety_notes": "Essential for any skincare routine; prevents UV-aggravated erythema and dark marks.",
+      "source": "British Association of Dermatologists Photodermatology Guidelines, 2023"
+    },
+    "evening_cleanser": {
+      "name": "Double or Balanced Evening Cleansing",
+      "action": "Cleanse",
+      "phase": "evening",
+      "ingredient_or_category": "Micellar water or gentle foaming gel cleanser",
+      "evidence_level": "Dermatologist Consensus",
+      "purpose": "Thoroughly dislodges mineral sunscreen, micro-particulates, and daytime sebum accumulation.",
+      "limitations": "Over-cleansing can precipitate reactive rebound sebum hypersecretion.",
+      "safety_notes": "Gently pat dry with a clean cotton towel. Do not rub vigorously.",
+      "source": "AAD Acne Patient Management Care Path, 2024"
+    },
+    "evening_active": {
+      "name": "Gentle Topical BHA or Encapsulated Retinoid",
+      "action": "Target",
+      "phase": "evening",
+      "ingredient_or_category": "Salicylic Acid (0.5-2%) or Encapsulated Retinol (0.1-0.3%)",
+      "evidence_level": "Peer-Reviewed",
+      "purpose": "Lipophilic beta-hydroxy acid penetrates follicular infundibulum to clear keratinaceous plugs and reduce microcomedone formation.",
+      "limitations": "Initial retinization purging or mild desquamation can occur during the first 2-4 weeks.",
+      "safety_notes": "Do not apply on broken, weeping skin or open lesions. Introduce gradually 2 nights per week.",
+      "source": "Dermatologic Therapy Clinical Review, 2023; 36(2):e15302"
+    },
+    "evening_barrier": {
+      "name": "Ceramide-Rich Barrier Repair Cream",
+      "action": "Moisturize",
+      "phase": "evening",
+      "ingredient_or_category": "Ceramides (NP, AP, EOP), Hyaluronic Acid, and Cholesterol (3:1:1 ratio)",
+      "evidence_level": "Peer-Reviewed",
+      "purpose": "Replenishes intercellular lipid matrix, accelerating recovery and reducing transepidermal water loss (TEWL).",
+      "limitations": "Provides restorative hydration; not a substitute for prescribed anti-inflammatory therapy.",
+      "safety_notes": "Non-comedogenic formulation suitable for acne-prone skin.",
+      "source": "International Journal of Cosmetic Science, 2022; 44(5):491-502"
+    },
+    "undereye_hydration": {
+      "name": "Caffeine & Peptide Periorbital Serum",
+      "action": "Periorbital Support",
+      "phase": "morning",
+      "ingredient_or_category": "Caffeine (2-3%) and Palmitoyl Tripeptide",
+      "evidence_level": "Clinical Review",
+      "purpose": "Helps temporarily reduce periorbital puffiness and improve microcirculation in thin lower eyelid skin.",
+      "limitations": "Does not alter structural infraorbital bone concavity or congenital venous pooling.",
+      "safety_notes": "Avoid getting directly into the ocular surface. Dab gently using the ring finger.",
+      "source": "Skin Research and Technology, 2021; 27(6):1042-1049"
+    }
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "image": "backend/uploads/user_1_scan_a83b8da2fc1b_raw.jpg",
+  "dimensions": {
+    "width": 474,
+    "height": 568
+  },
+  "threshold_evaluation": {
+    "0.15": {
+      "threshold": 0.15,
+      "total_count": 22,
+      "per_region_counts": {
+        "forehead": 8,
+        "left_cheek": 2,
+        "right_cheek": 5,
+        "nose": 3,
+        "chin": 4,
+        "left_undereye": 0,
+        "right_undereye": 0,
+        "undereye": 0,
+        "other": 0
+      },
+      "mean_confidence": 0.188,
+      "min_confidence": 0.152,
+      "max_confidence": 0.252
+    },
+    "0.18": {
+      "threshold": 0.18,
+      "total_count": 11,
+      "per_region_counts": {
+        "forehead": 4,
+        "left_cheek": 1,
+        "right_cheek": 2,
+        "nose": 2,
+        "chin": 2,
+        "left_undereye": 0,
+        "right_undereye": 0,
+        "undereye": 0,
+        "other": 0
+      },
+      "mean_confidence": 0.212,
+      "min_confidence": 0.181,
+      "max_confidence": 0.252
+    },
+    "0.20": {
+      "threshold": 0.2,
+      "total_count": 6,
+      "per_region_counts": {
+        "forehead": 3,
+        "left_cheek": 0,
+        "right_cheek": 0,
+        "nose": 2,
+        "chin": 1,
+        "left_undereye": 0,
+        "right_undereye": 0,
+        "undereye": 0,
+        "other": 0
+      },
+      "mean_confidence": 0.234,
+      "min_confidence": 0.204,
+      "max_confidence": 0.252
+    },
+    "0.25": {
+      "threshold": 0.25,
+      "total_count": 2,
+      "per_region_counts": {
+        "forehead": 2,
+        "left_cheek": 0,
+        "right_cheek": 0,
+        "nose": 0,
+        "chin": 0,
+        "left_undereye": 0,
+        "right_undereye": 0,
+        "undereye": 0,
+        "other": 0
+      },
+      "mean_confidence": 0.251,
+      "min_confidence": 0.25,
+      "max_confidence": 0.252
+    },
+    "0.30": {
+      "threshold": 0.3,
+      "total_count": 0,
+      "per_region_counts": {
+        "forehead": 0,
+        "left_cheek": 0,
+        "right_cheek": 0,
+        "nose": 0,
+        "chin": 0,
+        "left_undereye": 0,
+        "right_undereye": 0,
+        "undereye": 0,
+        "other": 0
+      },
+      "mean_confidence": 0.0,
+      "min_confidence": 0.0,
+      "max_confidence": 0.0
+    }
+  },
+  "operational_detection": {
+    "status": "detected",
+    "model_version": "zikabyte-yolo26-onnx-v1.0",
+    "total_count": 11,
+    "per_region_counts": {
+      "forehead": 4,
+      "left_cheek": 1,
+      "right_cheek": 2,
+      "nose": 2,
+      "chin": 2,
+      "left_undereye": 0,
+      "right_undereye": 0,
+      "undereye": 0,
+      "other": 0
+    },
+    "detections": [
+      {
+        "id": 1,
+        "bbox": {
+          "x1": 279.5,
+          "y1": 71.0,
+          "x2": 287.4,
+          "y2": 78.5
+        },
+        "confidence": 0.252,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "forehead"
+      },
+      {
+        "id": 2,
+        "bbox": {
+          "x1": 166.4,
+          "y1": 84.7,
+          "x2": 176.1,
+          "y2": 92.8
+        },
+        "confidence": 0.25,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "forehead"
+      },
+      {
+        "id": 3,
+        "bbox": {
+          "x1": 233.6,
+          "y1": 201.6,
+          "x2": 243.4,
+          "y2": 210.9
+        },
+        "confidence": 0.234,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "nose"
+      },
+      {
+        "id": 4,
+        "bbox": {
+          "x1": 350.4,
+          "y1": 106.3,
+          "x2": 360.1,
+          "y2": 114.8
+        },
+        "confidence": 0.232,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "forehead"
+      },
+      {
+        "id": 5,
+        "bbox": {
+          "x1": 237.8,
+          "y1": 178.9,
+          "x2": 245.1,
+          "y2": 186.4
+        },
+        "confidence": 0.23,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "nose"
+      },
+      {
+        "id": 6,
+        "bbox": {
+          "x1": 304.6,
+          "y1": 500.4,
+          "x2": 315.9,
+          "y2": 509.3
+        },
+        "confidence": 0.204,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "chin"
+      },
+      {
+        "id": 7,
+        "bbox": {
+          "x1": 240.2,
+          "y1": 529.8,
+          "x2": 251.7,
+          "y2": 540.1
+        },
+        "confidence": 0.191,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "chin"
+      },
+      {
+        "id": 8,
+        "bbox": {
+          "x1": 99.8,
+          "y1": 439.3,
+          "x2": 109.6,
+          "y2": 446.7
+        },
+        "confidence": 0.188,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "right_cheek"
+      },
+      {
+        "id": 9,
+        "bbox": {
+          "x1": 91.1,
+          "y1": 394.0,
+          "x2": 100.0,
+          "y2": 403.1
+        },
+        "confidence": 0.187,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "right_cheek"
+      },
+      {
+        "id": 10,
+        "bbox": {
+          "x1": 319.8,
+          "y1": 335.5,
+          "x2": 331.6,
+          "y2": 345.2
+        },
+        "confidence": 0.184,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "left_cheek"
+      },
+      {
+        "id": 11,
+        "bbox": {
+          "x1": 264.0,
+          "y1": 88.2,
+          "x2": 276.7,
+          "y2": 98.8
+        },
+        "confidence": 0.181,
+        "class_name": "acne",
+        "class_id": 1,
+        "region": "forehead"
+      }
+    ],
+    "message": "Inference complete: 11 lesions identified at threshold 0.18."
+  },
+  "indicators": {
+    "undereye_difference": {
+      "indicator_name": "undereye_color_diff",
+      "region": "undereye",
+      "raw_value": 13.39,
+      "normalized_score": 15.0,
+      "status": "valid",
+      "description": "Calibrated CIE Lab Delta E colour distance against adjacent cheek reference skin",
+      "interpretation": "Under-eye median Lab: L*=72.6, a*=11.9, b*=16.3 (10078 px). Cheek reference: L*=61.8, a*=18.6, b*=20.4 (52317 px). Raw Delta E = 13.39; under-eye skin is lighter than adjacent cheek by 10.8 L* units (no dark circles detected). Lighting status: balanced.",
+      "warnings": []
+    },
+    "redness_indicator": {
+      "indicator_name": "redness_erythema",
+      "region": "facial_zones",
+      "raw_value": 23.47,
+      "normalized_score": 58.3,
+      "status": "valid",
+      "description": "Calibrated chromatic redness indicator based on CIE Lab a* distribution",
+      "interpretation": "Peak 90th-percentile chromatic redness is Lab a*=23.5 (facial median a*=16.9, mean a*=16.9). Calibrated erythema indicator: 58.3/100.",
+      "warnings": []
+    },
+    "wrinkle_texture_indicator": {
+      "indicator_name": "wrinkle_texture",
+      "region": "forehead",
+      "raw_value": 1.308,
+      "normalized_score": 32.7,
+      "status": "valid",
+      "description": "Experimental fine line and skin texture dispersion metric",
+      "interpretation": "Surface fine line dispersion is 1.31 relative units.",
+      "warnings": []
+    },
+    "apparent_age_indicator": null
+  },
+  "visual_concern_index": {
+    "score": 64.4,
+    "concern_level": "Elevated",
+    "status": "calculated",
+    "scoring_version": "1.0.0",
+    "effective_weights": {
+      "acne": 0.65,
+      "redness": 0.2,
+      "undereye": 0.15
+    },
+    "included_indicators": [
+      "acne",
+      "redness",
+      "undereye"
+    ],
+    "excluded_indicators": [],
+    "missing_data_warnings": [],
+    "explanation": "Visual Concern Index of 64.4/100 (Elevated Concern) = [acne: 77.8 \u00d7 65.0% (50.54) + redness: 58.3 \u00d7 20.0% (11.66) + undereye: 15.0 \u00d7 15.0% (2.25)]. Calculated using weighting scheme 'acne_focused' (Engine v1.0.0) across 3 valid indicators with dynamic weight renormalization (total effective weight = 1.00).",
+    "breakdown": [
+      {
+        "indicator": "acne",
+        "configured_weight": 0.65,
+        "effective_weight": 0.65,
+        "normalized_score": 77.8,
+        "weighted_contribution": 50.54,
+        "status": "included"
+      },
+      {
+        "indicator": "redness",
+        "configured_weight": 0.2,
+        "effective_weight": 0.2,
+        "normalized_score": 58.3,
+        "weighted_contribution": 11.66,
+        "status": "included"
+      },
+      {
+        "indicator": "undereye",
+        "configured_weight": 0.15,
+        "effective_weight": 0.15,
+        "normalized_score": 15.0,
+        "weighted_contribution": 2.25,
+        "status": "included"
+      }
+    ]
+  }
+}
